@@ -1,0 +1,13 @@
+offset,dma_target,modbus_code,distance,notes
+52307,0x0015B215,0x01,-35,Read Coils at offset 52272
+52307,0x0015B215,0x01,-30,Read Coils at offset 52277
+52307,0x0015B215,0x01,-15,Read Coils at offset 52292
+52307,0x0015B215,0x01,+5,Read Coils at offset 52312
+52307,0x0015B215,0x01,+25,Read Coils at offset 52332
+52307,0x0015B215,0x05,+33,Write Single Coil at offset 52340
+42227,0x0015B214,0x01,±20,Read Coils in proximity
+42227,0x0015B214,0x10,±20,Write Multiple Registers in proximity
+42347,0x0015B214,0x01,±20,Read Coils in proximity
+42467,0x0015B214,0x01,±20,Read Coils in proximity
+42587,0x0015B214,0x01,±20,Read Coils in proximity
+42707,0x0015B214,0x01,±20,Read Coils in proximity
