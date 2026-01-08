@@ -1,6 +1,6 @@
 # Technical Analysis: CS42L7x DMA Write Primitive
 
-**File**: `RoseFirmwareLogs.bin` (132,164 bytes)  
+**File**: `RoseFirmwareLogs.bin`  
 **SHA256**: `0ea3266ebf7833990d48387fdce60da6c5d43832316563267a3db634b751e773`   
 **Analysis Date**: January 7, 2026  
 
@@ -10,10 +10,10 @@
 
 The Cirrus Logic CS42L7x audio coprocessor in millions of iPhones executed **623 direct memory access (DMA) writes** to physical address `0x0015B214` with:
 
-- ❌ No IOMMU/DART memory protection
-- ❌ No OS-visible firmware lock
-- ❌ No kernel driver running (Instance Count = 0)
-- ❌ No isolation from host system memory
+-  No IOMMU/DART memory protection
+-  No OS-visible firmware lock
+-  No kernel driver running (Instance Count = 0)
+-  No isolation from host system memory
 
 **Translation**: A chip designed to process audio wrote directly to system RAM 600+ times while iOS had no visibility or control.
 
