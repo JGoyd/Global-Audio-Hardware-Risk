@@ -24,10 +24,10 @@ The vulnerability was identified through analysis of iPhone firmware telemetry s
 Based on documented use of CS42L7x components in Apple products from 2021-2026:
 
 **iPhone Models:**
-- iPhone 13, 13 mini, 13 Pro, 13 Pro Max
-- iPhone 14, 14 Plus, 14 Pro, 14 Pro Max
-- iPhone 15, 15 Plus, 15 Pro, 15 Pro Max
-- iPhone 16, 16 Plus, 16 Pro, 16 Pro Max
+- iPhone 13 series
+- iPhone 14 series
+- iPhone 15 series
+- iPhone 16 series
 
 **iPad Models:**
 - iPad Pro 12.9-inch (5th generation and later, 2021+)
