@@ -1,8 +1,7 @@
 # Technical Analysis: CS42L7x DMA Write Primitive
 
 **File**: `RoseFirmwareLogs.bin` (132,164 bytes)  
-**SHA256**: `0ea3266ebf7833990d48387fdce60da6c5d43832316563267a3db634b751e773`  
-**Source**: iPhone 14 Pro Max sysdiagnose  
+**SHA256**: `0ea3266ebf7833990d48387fdce60da6c5d43832316563267a3db634b751e773`   
 **Analysis Date**: January 7, 2026  
 
 ---
@@ -315,9 +314,8 @@ Detecting exploitation is extremely difficult as attack leaves no traditional fo
 
 
 
----
 
-## This vulnerability was discovered through legitimate security research on personally-owned devices via rever-engineering. 
+## This vulnerability was discovered through legitimate security research on personally-owned devices via reverse-engineering. 
 
 ---
 
