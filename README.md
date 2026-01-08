@@ -15,7 +15,7 @@ A critical vulnerability has been discovered in the Cirrus Logic CS42L7x audio c
 
 The vulnerability was identified through analysis of iPhone firmware telemetry showing 623 instances of the audio coprocessor writing directly to system memory without operating system oversight or memory protection.
 
-**This hardware flaw cannot be fully fixed via iOS updates; complete mitigation requires device replacement.**
+**This hardware-level vulnerability cannot be fully fixed via software. iOS updates can mitigate exposure but cannot fully restore isolation guarantees without hardware changes or loss of functionality.**
 
 ---
 
