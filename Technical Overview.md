@@ -23,10 +23,10 @@ The Cirrus Logic CS42L7x audio coprocessor in millions of iPhones executed **623
 
 ### Core Issue
 
-Audio coprocessor firmware contains a **scatter-gather DMA descriptor chain** that can be corrupted via buffer overflow, redirecting subsequent DMA writes to arbitrary memory addresses.
+Audio coprocessor firmware contains a **scatter-gather DMA descriptor chain** that may be vulnerable to corruption via buffer overflow, redirecting subsequent DMA writes to arbitrary memory addresses.
 
 ### Attack Flow
-
+Note: The following attack flow is a theoretical exploitation chain based on observed DMA patterns and standard exploitation techniques.
 ```
 [1] Malicious audio file with oversized frame header
     ↓
@@ -87,7 +87,7 @@ Offset, Physical_Address, Control_Bytes, Interpretation
 [16-19] Next descriptor ptr  (4 bytes) ← CORRUPTION TARGET
 ```
 
-**Exploitation**: Overflow at offset 372 corrupts "next pointer" at offset 388, redirecting chain to attacker-controlled address.
+**Exploitation**: Overflow at offset 372 could corrupt "next pointer" at offset 388, redirecting chain to attacker-controlled address.
 
 ### 3. Modbus Protocol Correlation
 
