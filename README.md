@@ -169,7 +169,7 @@ Binary evidence files and correlation data are provided for independent verifica
 
 ## Disclosure Statement
 
-This vulnerability was discovered through legitimate security research conducted on personally-owned devices in compliance with applicable laws. All findings have been disclosed to relevant parties through responsible disclosure processes. Public release of this information is has been execututed protect affected users and systems.
+This vulnerability was discovered through legitimate security research conducted on personally-owned devices. All findings have been disclosed to relevant parties. Public release of this information has been execututed due to ongoing risk & to protect affected users, systems, and innocent bystanders.
 
 
 **Last Updated:** January 7, 2026
