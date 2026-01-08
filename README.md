@@ -1,4 +1,4 @@
-# Unpatched Audio Hardware Flaw Puts Consumer and Industrial Systems at Risk
+# Unpatchable Audio Hardware Flaw Puts Consumer and Industrial Systems at Risk
 
 # Critical Security Vulnerability in Cirrus Logic CS42L7x Audio Coprocessor
 
