@@ -1,6 +1,6 @@
 # Critical Audio Hardware Flaw Puts Consumer and Industrial Systems at Risk
 
-## Hardware Vulnerability in Cirrus Logic CS42L7x Audio Coprocessor 
+## Vulnerability in Cirrus Logic CS42L7x Audio Coprocessor 
 ### DMA → Modbus adjacency
 ---
 **SEVERITY: HIGH (CVSS 8.8)**  
