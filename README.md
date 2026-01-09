@@ -20,28 +20,47 @@ The vulnerability was identified through analysis of iPhone firmware telemetry s
 
 ---
 
-## Vulnerable Devices
+## Vulnerable Devices & Impact Scope
 
-Based on documented use of CS42L7x components in Apple products from 2021-2026:
+### Affected Component
+- **Component:** Cirrus Logic CS42L7x family audio codec  
+- **Exposure Window:** ~2021–present device production  
+- **Attack Surface:** Coprocessor ↔ host memory interaction  
 
-**iPhone Models:**
-- iPhone 13 series
-- iPhone 14 series
-- iPhone 15 series
-- iPhone 16 series
+---
 
-**iPad Models:**
-- iPad Pro 12.9-inch (5th generation and later, 2021+)
-- iPad Pro 11-inch (3rd generation and later, 2021+)
-- iPad Air (5th generation and later, 2022+)
+### Apple Consumer Devices
 
-**Industrial Control Devices:**
+| Platform | Potentially Affected Models |
+|---------|-----------------------------|
+| iPhone  | iPhone 13 / 14 / 15 / 16 series |
+| iPad Pro | 12.9-inch (5th gen+, 2021+)<br>11-inch (3rd gen+, 2021+) |
+| iPad Air | 5th gen and later (2022+) |
+
+> Apple does not publicly disclose codec-level hardware assignments per model.  
+> Impact depends on CS42L7x presence, firmware revision, and OS interaction.
+
+---
+
+### Industrial & Embedded Systems
+
+**Devices incorporating CS42L7x codecs may include:**
+
 - iOS and Android devices running industrial monitoring and control applications
 - Mobile operator terminals for SCADA systems
 - Field service devices with remote access to programmable logic controllers
-- Any device with CS42L7x hardware running industrial HMI applications
+- Any device with CS42L7x hardware running industrial HMI applications 
 
-**Total Estimated Impact:** Over 500 million consumer devices plus unlimited industrial operator hardware.
+Due to limited public disclosure and opaque industrial supply chains, the full extent of industrial deployment cannot be reliably enumerated.
+
+---
+
+### Estimated Impact
+
+| Category | Scope |
+|---------|-------|
+| Consumer Devices | Hundreds of millions of active Apple devices |
+| Industrial / Embedded | Difficult to quantify |
 
 ---
 
