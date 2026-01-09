@@ -315,7 +315,7 @@ Detecting exploitation is extremely difficult as attack leaves no traditional fo
 
 
 
-## This vulnerability was discovered through legitimate security research on personally-owned devices via reverse-engineering. 
+### This vulnerability was discovered through security research on personally-owned devices via reverse-engineering. 
 
 ---
 
